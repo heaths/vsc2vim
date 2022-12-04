@@ -1,0 +1,13 @@
+[package]
+name = "vsc2vim"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/heaths/vsc2vim"
+license = "MIT"
+description = """
+Convert Visual Studio Code themes to ViM color schemes.
+"""
+
+[dependencies]
+clap = { version = "4.0.29", features = ["cargo", "derive"] }
+serde_json = "1.0.89"
